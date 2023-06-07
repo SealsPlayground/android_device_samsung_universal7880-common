@@ -106,6 +106,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init/vendor.samsung.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc
 
+# FP_Change stuff
+PRODUCT_PACKAGES += \
+    fp_change \
+    fp_change.conf
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -279,14 +284,6 @@ PRODUCT_PACKAGES += \
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
-
-# Touch features
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.samsung
-
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-exynos
 
 # Trust HAL
 PRODUCT_PACKAGES += \

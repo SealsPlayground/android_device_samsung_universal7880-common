@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
 # FP_Change stuff
 PRODUCT_PACKAGES += \
     fp_change \
-    fp_change.conf
+    fp_list.json
 
 # DRM
 PRODUCT_PACKAGES += \

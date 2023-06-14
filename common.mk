@@ -109,7 +109,11 @@ PRODUCT_COPY_FILES += \
 # FP_Change stuff
 PRODUCT_PACKAGES += \
     fp_change \
-    fp_list.json
+    AuthClient \
+    fp_update \
+    fp_list.json \
+    fp_update.rc \
+    AuthClient.rc
 
 # DRM
 PRODUCT_PACKAGES += \

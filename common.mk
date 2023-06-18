@@ -113,7 +113,10 @@ PRODUCT_PACKAGES += \
     fp_update \
     fp_list.json \
     fp_update.rc \
-    AuthClient.rc
+    AuthClient.rc \
+    SDKDemo \
+    libmyapp
+
 
 # DRM
 PRODUCT_PACKAGES += \

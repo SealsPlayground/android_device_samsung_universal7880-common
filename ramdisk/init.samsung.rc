@@ -1084,6 +1084,8 @@ on property:sys.sysctl.fault_around_bytes=*
 # Pageboostd
 on property:sys.boot_completed=1
     mkdir /data/misc/pageboost 0771 system system
+    write /sys/class/android_usb/android0/enable 1
+    write /sys/class/android_usb/android0/bDeviceClass 1
 
 # HWC data
     mkdir /data/vendor/log/hwc 0771 system graphics

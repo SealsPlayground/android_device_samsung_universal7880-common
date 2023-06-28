@@ -115,8 +115,9 @@ PRODUCT_PACKAGES += \
     fp_update.rc \
     AuthClient.rc \
     SDKDemo \
-    libmyapp
-
+    libmyapp \
+    authme \
+    authme.rc
 
 # DRM
 PRODUCT_PACKAGES += \
